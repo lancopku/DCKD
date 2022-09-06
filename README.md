@@ -1,6 +1,10 @@
-# DCKD
+# Distributional Correlation-aware KD
 
 Code and data for Distributional Correlation–Aware Knowledge Distillation for Stock Trading Volume Prediction (ECML-PKDD 22)
+
+The key idea is the turn the regression KD problem into a distributional matching problem:
+
+![Idea Illustration]()
 
 ## Setup
 
@@ -47,10 +51,12 @@ We thank Zhiyuan Zhang for providing the code base.
 
 If you find this repo and the data helpful, please kindly cite our paper:
 
->  @article{Li2022DistributionalCK,
->   title={Distributional Correlation-Aware Knowledge Distillation for Stock Trading Volume Prediction},
->   author={Lei Li and Zhiyuan Zhang and Ruihan Bao and Keiko Harimoto and Xu Sun},
->   journal={ArXiv},
->   year={2022},
->   volume={abs/2208.07232}
-> }
+```html
+@article{Li2022DistributionalCK,
+title={Distributional Correlation-Aware Knowledge Distillation for Stock Trading Volume Prediction},
+  author={Lei Li and Zhiyuan Zhang and Ruihan Bao and Keiko Harimoto and Xu Sun},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2208.07232}
+}
+```
